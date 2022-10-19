@@ -1,1 +1,13 @@
 # Cplusplus-Program
+
+The Gaming Room was a client interested in converting their existing game software "Draw It or Lose It" to a web-based server. The game was available for Android, but the goal with the server was to make it available on browsers, and iOS devices. By switching to a central server model, development for multiple platforms would be streamlined and made significantly easier.
+
+I believe I did well in the executive summary portion of the document, including potential design restraints and a domain model that contained an overview of the various pieces of software and how they connected. It was useful to have this to grasp the problem from a more high level perspective, and have the more intricate details follow from there.
+
+The domain model was particularly helpful when developing the code for this project. Having a defined structure presented streamlines the coding process, allowing for quicker writing time and ideally quicker debugging. It is a good chance to understand more types of programming designs and patterns, and overall provides quick and quality access to the flow of a program.
+
+One part of the document I would revise is the development requirements for the app. There were details I missed, or did not elaborate on properly, that I would like to add. One example would be mobile not being suitable for actual development of the app.
+
+When evaluating the end users needs, some of the needs I focused on were the desire to have it be able to run on any browser, and Android/iOS, as well as their need to have every image in their game library available quickly on demand. For the first piece, it put into perspective the time it would take to develop and verify the app across all platforms. While a server can handle the back end remotely, each browser may have unique limitations to consider. Considering the amount of time and resources it may take to verify that influenced a lot of thought. The images needing on demand availability took into account what parts of the game would be held in RAM vs storage. The client, as the individual paying for the services, is the most important person to listen to. If they are not satisfied and their dreictions were not followed, your or your company's reputation may be in question.
+
+When designing software, one philosophy I try to follow is to keep it as simple as possible. I believe in keeping code as limited as it needs to be while not skimping any important features. If I needed to approach another client with a similar problem, a server-based web app would still be the recommended solution in order to ensure all their needs are met efficiently and properly.
